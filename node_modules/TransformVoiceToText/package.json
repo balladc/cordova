@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/matrix-yang/TransformVoiceToText.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/matrix-yang/TransformVoiceToText.git",
+        "spec": "git+https://github.com/matrix-yang/TransformVoiceToText.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:matrix-yang/TransformVoiceToText.git",
+          "sshUrl": "git+ssh://git@github.com/matrix-yang/TransformVoiceToText.git",
+          "httpsUrl": "git+https://github.com/matrix-yang/TransformVoiceToText.git",
+          "gitUrl": "git://github.com/matrix-yang/TransformVoiceToText.git",
+          "shortcut": "github:matrix-yang/TransformVoiceToText",
+          "directUrl": "https://raw.githubusercontent.com/matrix-yang/TransformVoiceToText/master/package.json"
+        }
+      },
+      "E:\\GitHub\\rfidread\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/matrix-yang/TransformVoiceToText.git",
+  "_id": "TransformVoiceToText@1.0.0",
+  "_inCache": true,
+  "_location": "/TransformVoiceToText",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/matrix-yang/TransformVoiceToText.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/matrix-yang/TransformVoiceToText.git",
+    "spec": "git+https://github.com/matrix-yang/TransformVoiceToText.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:matrix-yang/TransformVoiceToText.git",
+      "sshUrl": "git+ssh://git@github.com/matrix-yang/TransformVoiceToText.git",
+      "httpsUrl": "git+https://github.com/matrix-yang/TransformVoiceToText.git",
+      "gitUrl": "git://github.com/matrix-yang/TransformVoiceToText.git",
+      "shortcut": "github:matrix-yang/TransformVoiceToText",
+      "directUrl": "https://raw.githubusercontent.com/matrix-yang/TransformVoiceToText/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/matrix-yang/TransformVoiceToText.git#9aa2759517d852cf950d0db69ea7f2b8316c4242",
+  "_shasum": "2bb7c2f3d445b781c91fe499c5cbda83f57a523a",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/matrix-yang/TransformVoiceToText.git",
+  "_where": "E:\\GitHub\\rfidread\\node_modules",
+  "author": "",
+  "cordova": {
+    "id": "VoiceToText",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "```javascript\r   cordova.plugins.TransformVoiceToText.transform(\"cantonese\",function (msg) {\r             alert(\"success\"+msg);\r         },function (err) {\r             alert(\"err\"+err);\r         });\r ```      \r 第一个参数为 方言类型 可选参数为\r 普通话：mandarin\r 粤 语：cantonese\r 四川话：lmz\r 必须传入其中一种，否则报错",
+  "devDependencies": {},
+  "gitHead": "9aa2759517d852cf950d0db69ea7f2b8316c4242",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "TransformVoiceToText",
+  "optionalDependencies": {},
+  "readme": "#前端js使用说明\r\n```javascript\r\n  cordova.plugins.TransformVoiceToText.transform(\"cantonese\",function (msg) {\r\n            alert(\"success\"+msg);\r\n        },function (err) {\r\n            alert(\"err\"+err);\r\n        });\r\n```      \r\n第一个参数为 方言类型 可选参数为\r\n普通话：mandarin\r\n粤 语：cantonese\r\n四川话：lmz\r\n必须传入其中一种，否则报错\r\n",
+  "readmeFilename": "README.md",
+  "version": "1.0.0"
+}

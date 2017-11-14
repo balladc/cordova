@@ -1,0 +1,26 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "readRFID": {
+        "source": {
+            "type": "local",
+            "path": "E:\\GitHub\\rfidread\\node_modules\\readRFID"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "VoiceToText": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/matrix-yang/TransformVoiceToText.git"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

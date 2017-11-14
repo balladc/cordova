@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>河长APP</title>
+</head>
+<body>
+<div id="app">
+    <main-view></main-view>
+</div>
+<script type="text/javascript">
+    window.cesc={
+        require:require
+    }
+</script>
+<script type="text/javascript" src="cordova.js"></script>
+<!--<script type="text/javascript">
+    setTimeout(function(){
+        $.getScript("./app.e1286b3c.bundle.js",function(){
+            console.log("脚本加载完成");
+            $('#indexLoading').hide();
+        });
+    },3000);//延时3秒
+</script>-->
+<div>
+    <input type="button" onclick="javascript:start()" value="readRFID">
+    <input type="button" onclick="javascript:start1()" value="voicetotext">
+</div>
+
+<script type="text/javascript">
+    function start() {
+        alert("start");
+        cordova.plugins.readRFID.readRFID("cantonese",function (msg) {
+            alert("success--->"+msg);
+        },function (err) {
+            alert("err--->"+err);
+        });
+    }
+    function start1() {
+        alert("start");
+        cordova.plugins.TransformVoiceToText.transform("mandarin",function (msg) {
+            alert("success--->"+msg);
+        },function (err) {
+            alert("err--->"+err);
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "E:\\GitHub\\readRFID",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "E:\\GitHub\\readRFID",
+        "spec": "E:\\GitHub\\readRFID",
+        "type": "directory"
+      },
+      "E:\\GitHub\\rfidread\\node_modules"
+    ]
+  ],
+  "_from": "..\\readRFID",
+  "_id": "readRFID@1.0.0",
+  "_inCache": true,
+  "_location": "/readRFID",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "E:\\GitHub\\readRFID",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "E:\\GitHub\\readRFID",
+    "spec": "E:\\GitHub\\readRFID",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:..\\readRFID",
+  "_shasum": "6b16269323a2e9c391ca91436962324d7833f1f5",
+  "_shrinkwrap": null,
+  "_spec": "E:\\GitHub\\readRFID",
+  "_where": "E:\\GitHub\\rfidread\\node_modules",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/matrix-yang/readRFID/issues"
+  },
+  "cordova": {
+    "id": "readRFID",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "gitHead": "36235e64e9b2b427a1842e8ad1a0e3f83b7a87f3",
+  "homepage": "https://github.com/matrix-yang/readRFID#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "readRFID",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matrix-yang/readRFID.git"
+  },
+  "version": "1.0.0"
+}
